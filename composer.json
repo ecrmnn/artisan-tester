@@ -1,0 +1,14 @@
+{
+    "name": "ecrmnn/artisan-tester",
+    "description": "Artisan Tester",
+    "type": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ecrmnn",
+            "email": "danieleckermann@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

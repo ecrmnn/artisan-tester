@@ -1,0 +1,16 @@
+{
+  "providers": [
+    "ArtisanTester\\Providers\\ArtisanTesterServiceProvider::class"
+  ],
+  "aliases": {
+    "ArtisanTester": "Some\\Random\\Class::class"
+  },
+  "scripts": {
+    "before": [
+      "php artisan view:clear"
+    ],
+    "after": [
+      "php artisan route:list"
+    ]
+  }
+}
